@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans 3", sans-serif;
+}
+a{
+    color: #607CE6;
+    text-decoration: none;
+}
+body{
+    padding: 32px 20%;
+}
+.flex{
+    display: flex;
+}
+
+.logo{
+    width: 180px;
+    height: 38px;
+}
+.top_header{
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+.email, .tel{
+    text-align: end;
+}
+.email{
+    margin-right: 50px;
+}
+.email_text, .tel_text{
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.email_text{
+    text-decoration: underline;
+}
+
+.menu{
+justify-content: space-between;
+margin-top: 16px;
+}
+.menu_item{
+    color: black;
+}
+.menu_call{
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+.menu_call img{
+    margin-right: 5px;
+}
+
+.vstuplenie{
+    margin-top: 80px;
+}
+.vstuplenie_heading{
+    font-size: 60px;
+    font-weight: 700;
+}
+.vstuplenie_description{
+    margin:50px 100px;
+}
+.zavod_img{
+    margin-top: 25px;
+}
+.description{
+    margin-top: 80px;
+}
+.description_heading{
+    font-size: 48px;
+}
+.description_img{
+    width: 580px;
+    height: 280px;
+    margin-top: 32px;
+}
+.description_text div{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.description_img2{
+    width: 580px;
+    height: 280px;
+    margin-top: 122px;
+}
+.zagolovok.formi{
+    color:#000000; 
+    text-align: center; 
+    margin-bottom: 20px; 
+  }
+.form {
+    display: flex; 
+    flex-direction: column; 
+    max-width: 400px; 
+    padding: 20px; 
+    background-color: #f9f9f9; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+label{
+    font-size: 16px; 
+    margin-bottom: 5px; 
+    color: #555; 
+}
+input[type="text"],
+input[type="tel"] {
+  padding: 10px; 
+  font-size: 14px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  margin-bottom: 15px; 
+  width: 100%; 
+  box-sizing: border-box;
+}
+input[type="submit"] {
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    padding: 10px 15px; 
+    font-size: 16px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+  }
+  input:invalid {
+    border-color: red; 
+  }
+  input:valid {
+    border-color: green; 
+  }
+  input:invalid:focus {
+    outline: none; 
+    box-shadow: 0 0 5px red; 
+  }
+  .counter {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 18px;
+}
+.buttons {
+    text-align: center;
+    margin: 10px 0;
+}
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #f4f4f4;
+}
+body.dark {
+    background-color: #121212;
+    color: white;
+}
+.menu_item.dark {
+    color: white;
+}
+body.dark h2 {
+    color: white;
+}
